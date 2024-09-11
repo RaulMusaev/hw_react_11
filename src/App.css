@@ -1,38 +1,106 @@
-.App {
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #007bff;
+  padding: 1rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav a:hover {
+  text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1, h2 {
+  color: #333;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+ul li:hover {
+  transform: scale(1.05);
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.home-page {
+  padding: 20px;
+}
+
+.home-page h2 {
+  margin-top: 30px;
+}
+
+.product-page {
+  padding: 20px;
+}
+
+.product-page h1 {
+  margin-bottom: 20px;
+}
+
+.product-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.category-page {
+  padding: 20px;
+}
+
+.category-page h1 {
+  margin-bottom: 20px;
+}
+
+.news-page {
+  padding: 20px;
+}
+
+.news-page h1 {
+  margin-bottom: 20px;
+}
+
+.not-found-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.not-found-page h1 {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.not-found-page p {
+  font-size: 1.2rem;
 }
